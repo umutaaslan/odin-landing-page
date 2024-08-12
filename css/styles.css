@@ -1,3 +1,7 @@
+body {
+    margin: 0;
+}
+
 header {
     display: flex;
     margin-bottom: 10%;
@@ -164,4 +168,13 @@ header a:hover {
 .section-4-second-text {
     color: #E5E7EB;
     font-size: 18px;
+}
+
+footer {
+    background-color: #1F2937;
+    color: white;
+    font-size: 16px;
+    padding: 32px 0;
+    margin: 0;
+    text-align: center;
 }
