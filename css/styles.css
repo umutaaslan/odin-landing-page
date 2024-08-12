@@ -39,6 +39,7 @@ header a:hover {
 
 .section-1-content > img {
     margin-left: auto;
+    margin-bottom: 40px;
 }
 
 .section-1-content-left {
@@ -96,11 +97,71 @@ header a:hover {
 .section-2-infs > div > img {
     height: 160px;
     width: 160px;
-    border: 2px solid rgb(60, 60, 253);
+    border: 2px solid #3882F6;
     border-radius: 10px;
 }
 
 .section-2-infs > div > p {
     width: 100%;
     text-align: center;
+}
+
+.section-3 {
+    padding: 0 10%;
+    background-color: #E5E7EB;
+    display: flex;
+    flex-direction: column;
+    margin-top: 48px;
+}
+
+
+.section-3 > p {
+    margin: 0;
+}
+
+.quote-text {
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937;
+    padding-top: 36px;
+}
+
+.quote-owner {
+    font-weight: bolder;
+    font-size: 24px;
+    align-self: flex-end;
+    padding-bottom: 36px;
+}
+
+.section-4 {
+    padding: 0 10%;
+    background-color: #3882F6;
+    margin: 10% 5%;
+    padding: 36px 48px;
+    display: flex;
+    border-radius: 8px;
+}
+
+.section-4 > button {
+    width: 135px;
+    height: 45px;
+    margin-left: auto;
+    align-self: center;
+    background-color: transparent;
+    color: white;
+    font-size: 16px;
+    font-weight: 600;
+    border: 2px solid white;
+    border-radius: 8px;
+}
+
+.section-4-main-text {
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.section-4-second-text {
+    color: #E5E7EB;
+    font-size: 18px;
 }
