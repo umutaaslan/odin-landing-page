@@ -5,6 +5,7 @@ header {
 
 .section-1 {
     padding: 0 10%;
+    background-color: #1F2937;
 }
 
 .header-right {
@@ -22,10 +23,9 @@ header a {
     color: white;
 }
 
-.section-1 {
-    background-color: #1F2937;
+header a:hover {
+    font-weight: bold;
 }
-
 
 #header-logo {
     width: 80px;
@@ -34,6 +34,7 @@ header a {
 
 .section-1-content {
     display: flex;
+    gap: 48px;
 }
 
 .section-1-content > img {
@@ -46,16 +47,14 @@ header a {
     
 }
 
-.section-1-content-left *{
-    border: 1px solid red;
-}
-
 .section-1-content-left button{
     width: 160px;
     height: 50px;
     background-color: #3882F6;
     color: #F9FAF8;
     padding: 12px;
+    font-size: 18px;
+    font-weight: 600;
 }
 
 .emphasis-text {
@@ -69,4 +68,39 @@ header a {
 .emphasis-text-sub {
     font-size: 18px;
     color: #E5E7EB;
+}
+
+.section-2 {
+    padding: 0 10%;
+}
+
+.section-2 > p {
+    text-align: center;
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1F2937;
+}
+
+.section-2-infs {
+    display: flex;
+    justify-content: space-around;
+    gap: 24px;
+}
+
+.section-2-infs > div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.section-2-infs > div > img {
+    height: 160px;
+    width: 160px;
+    border: 2px solid rgb(60, 60, 253);
+    border-radius: 10px;
+}
+
+.section-2-infs > div > p {
+    width: 100%;
+    text-align: center;
 }
